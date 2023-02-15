@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.front-space{
+  height: 150px;
+}
+
+h2{
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+header{
+  display: none;
+}
+
+.album ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.album li{
+  max-width: 400px;
+  margin: 50px;
+}
